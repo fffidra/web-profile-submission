@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Quicksand:wght@500&display=swap');body{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(149, 168, 197);
+}
+
+.container{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 1px;
+}
+
+.container tag{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 0px;
+    right: 0px;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    font-weight:bolder;
+    font-size: 60px;
+    margin-top: 60px;
+}
+
+a{
+    color:rgb(123, 144, 214);
+    display: inline-block;
+    width: 1px;
+    height: auto;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding-right: 40px;
+    padding-left: 30px;
+}
+
+.three{
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 1px;
+    padding-top: 6px;
+    margin-top: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+.footer{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 2;
+}
+
+.one{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.one p{
+    line-height: 2;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.jay{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.two{
+    line-height: 5px;
+    padding-left: 30px;
+}
+
+.loe{
+    font-size: 16px;
+    color: gray;
+}
+
+.aqu{
+    font-size: 16px;
+    color: gray;
+}
+
+.two h2{
+    font-size: 40px;
+}
+
+.content{
+    overflow: auto;
+}
+
+.left{
+    float: left;
+    width: 660px;
+    overflow: auto;
+}
+
+.right{
+    float: right;
+    overflow: auto;
+}
+
+.right img{
+    width: 250px;
+    float: right;
+    padding-right: 40px;
+}
+
+.right p{
+    text-align: justify;
+    font-size: smaller
+}
+
+.fixed{
+    height: 40px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    width: 100%;
+    background-color:rgb(149, 168, 197);
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+}
